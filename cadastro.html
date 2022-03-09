@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Health Track</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/cadastro-style.css" />
+</head>
+
+<body>
+    <div class="main-cadastro">
+        <div class="left-cadastro">
+            <h1>Bem-vindo, faça o seu cadastro aqui!</h1>
+            <img src="imagens/image-animated-cadastro.svg" class="left-cadastro-image" alt="Imagem de Cadastro animada">
+        </div>
+        <div class="right-cadastro">
+            <div class="card-cadastro">
+                <h1>Cadastro</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" />
+                </div>
+                <div class="textfield">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email" />
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" />
+                </div>
+                <div class="textfield">
+                    <label for="dados">Dados Cadastrais</label>
+                    <input type="tel" name="telefone" placeholder="Telefone com DDD">
+                </div>
+                <div class="textfield">
+                    <input type="text" name="peso" placeholder="Peso (em kg)" pattern="[0-9]+$" />
+                </div>
+                <div class="textfield">
+                    <input type="text" name="altura" placeholder="Altura (em cm)" pattern="[0-9]+$" />
+                </div>
+                <button type="submit" class="btn-cadastro">Cadastrar</button>
+            </div>
+            <!-- card-cadastro-->
+        </div>
+        <!-- right-cadastro -->
+    </div>
+</body>
+
+</html>

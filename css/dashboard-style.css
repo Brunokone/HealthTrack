@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body {
+    background: #201b2c;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background: #6a1b9a;
+}
+
+.textfield {
+    color: #f0ffffde;
+}
+
+.linha {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    display: inline-block;
+}
+
+.celula {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 65px;
+    background: #4e4070;
+    border-radius: 20px;
+}
+
+.celula>img {
+    width: 100px;
+    height: 100px;
+    background-image: cover;
+    float: left;
+}
+
+.texto_img {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+
+.celula {
+    float: left;
+    margin: 40px;
+}
+
+.legenda {
+    text-align: center;
+    width: 100px;
+    padding-top: 20px;
+}
+
+@media (max-width: 1400px) {
+    .celula {
+        padding: 45px;
+    }
+}
